@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'interstate';
+  src: URL('../fontes/interstate.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'pearoxygirl';
+  src: URL('../fontes/pearoxygirl.ttf') format('truetype');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #54605a;
+}
+
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  box-shadow: 1px 1px 3px #f49c34;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  color: #54605a;
+}
+
+.card {
+  box-shadow: 1px 3px 10px black;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 7px;
+  font-family: 'interstate';
+}
+
+.card-top {
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-text {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: 'pearoxygirl';
+  font-size: 15px;
+}
+
+.card-text label {
+  display: block;
+  margin-bottom: 1px;
+}
+.card-text input {
+  display: block;
+  border-radius: 7px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  outline: 0;
+  width: 100%;
+  height: 15px;
+  padding: 5px;
+}
+
+.card-box {
+  text-align: left;
+  font-family: 'pearoxygirl';
+  font-size: 10px;
+}
+.card-box input {
+  height: 10px;
+}
+
+.card-button {
+  text-align: center;
+  margin-top: 10px;
+}
+.card-button button {
+  background-color: #f49c34;
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px;
+  padding-top: 15px;
+  color: #54605a;
+  border: 0px;
+  outline: 0;
+}
+
+.card-button button:hover {
+  background-color: #f6ae56;
+}
+
+.bottom-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #54605a;
+}
+
+.bottom-text a {
+  text-decoration: none;
+  color: #54605a;
+}
